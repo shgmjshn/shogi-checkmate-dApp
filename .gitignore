@@ -1,0 +1,26 @@
+# Rust/Anchor関連
+target/
+**/*.rs.bk
+.anchor/
+.DS_Store
+
+# Node関連
+node_modules/
+npm-debug.log
+yarn-error.log
+yarn-debug.log
+package-lock.json
+
+# Solana
+test-ledger/
+
+# IDE関連
+.idea/
+.vscode/
+*.iml
+.editorconfig
+
+# ビルド成果物
+dist/
+build/
+*.so 
