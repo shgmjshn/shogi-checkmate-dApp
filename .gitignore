@@ -1,19 +1,25 @@
 # Rust/Anchor関連
 target/
+**/target/
 **/*.rs.bk
 .anchor/
+**/.anchor/
 .DS_Store
 
 # Node関連
 node_modules/
+**/node_modules/
 npm-debug.log
 yarn-error.log
 yarn-debug.log
 package-lock.json
+**/package-lock.json
 .yarn
+**/.yarn
 
 # Solana
 test-ledger/
+**/test-ledger/
 
 # IDE関連
 .idea/
@@ -23,5 +29,7 @@ test-ledger/
 
 # ビルド成果物
 dist/
+**/dist/
 build/
+**/build/
 *.so
