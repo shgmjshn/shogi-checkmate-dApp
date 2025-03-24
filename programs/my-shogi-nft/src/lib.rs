@@ -1,3 +1,4 @@
+#![allow(unexpected_cfgs)]
 use anchor_lang::prelude::*;
 
 declare_id!("EA7qTJVQeghgYfoFBNL9mAQNxXXvq8hrpHhsqsip1Kgg");
@@ -6,7 +7,7 @@ declare_id!("EA7qTJVQeghgYfoFBNL9mAQNxXXvq8hrpHhsqsip1Kgg");
 pub mod my_shogi_nft {
     use super::*;
 
-    pub fn initialize(ctx: Context<Initialize>) -> Result<()> {
+    pub fn initialize(_ctx: Context<Initialize>) -> Result<()> {
         Ok(())
     }
 }
